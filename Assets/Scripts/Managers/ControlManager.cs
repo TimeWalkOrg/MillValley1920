@@ -134,7 +134,8 @@ public class ControlManager : MonoBehaviour
 	{
 		Missive.AddListener<ControlSelectMissive>(OnControlSelect);
 		Missive.AddListener<InputDataMissive>(OnInput);
-	}
+
+    }
 
 	private void Update()
 	{
@@ -369,6 +370,7 @@ public class ControlManager : MonoBehaviour
 		currentControlType = missive.controlType;
 		
 		// Enable control type
+
 		switch (missive.controlType)
 		{
 			case ControlType.None:
@@ -386,8 +388,9 @@ public class ControlManager : MonoBehaviour
 			default:
 				break;
 		}
+        
 
-		if (currentControlGO != null)
+        if (currentControlGO != null)
 			currentControlGO.SetActive(true);
 		if (currentControlUI != null)
 			currentControlUI.SetActive(true);

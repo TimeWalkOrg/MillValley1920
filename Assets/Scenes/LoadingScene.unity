@@ -1352,22 +1352,22 @@ PrefabInstance:
     - target: {fileID: 224693903324217652, guid: 797afa0f085fac441a295e1eb9273cf0,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224693903324217652, guid: 797afa0f085fac441a295e1eb9273cf0,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224693903324217652, guid: 797afa0f085fac441a295e1eb9273cf0,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1136.4418
       objectReference: {fileID: 0}
     - target: {fileID: 224693903324217652, guid: 797afa0f085fac441a295e1eb9273cf0,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -319.5
       objectReference: {fileID: 0}
     - target: {fileID: 224753181702911992, guid: 797afa0f085fac441a295e1eb9273cf0,
         type: 3}
@@ -1412,22 +1412,22 @@ PrefabInstance:
     - target: {fileID: 224915823064202862, guid: 797afa0f085fac441a295e1eb9273cf0,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224915823064202862, guid: 797afa0f085fac441a295e1eb9273cf0,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224915823064202862, guid: 797afa0f085fac441a295e1eb9273cf0,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1136.4418
       objectReference: {fileID: 0}
     - target: {fileID: 224915823064202862, guid: 797afa0f085fac441a295e1eb9273cf0,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -558.5
       objectReference: {fileID: 0}
     - target: {fileID: 224506757623097366, guid: 797afa0f085fac441a295e1eb9273cf0,
         type: 3}
@@ -1499,6 +1499,26 @@ PrefabInstance:
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 114807740340393314, guid: 797afa0f085fac441a295e1eb9273cf0,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Click here to start "walkthrough"
+
+        (use PC keyboard to control movement)'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415587429962308, guid: 797afa0f085fac441a295e1eb9273cf0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114101296161614464, guid: 797afa0f085fac441a295e1eb9273cf0,
+        type: 3}
+      propertyPath: m_Text
+      value: Ready to visit TimeWalk Mill Valley?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1430024017515298, guid: 797afa0f085fac441a295e1eb9273cf0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 797afa0f085fac441a295e1eb9273cf0, type: 3}
 --- !u!114 &706318434 stripped
